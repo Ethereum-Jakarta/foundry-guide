@@ -60,17 +60,17 @@ cast --version
 anvil --version
 ```
 
-### Langkah 7: Instal VS Code dan Ekstensi Remote Development
+### Langkah 3: Instal VS Code dan Ekstensi Remote Development
 
 Buka VS Code dan instal ekstensi "Remote Development" dari Microsoft jika belum menginstalnya.
 
-### Langkah 8: Hubungkan VS Code ke WSL
+### Langkah 4: Hubungkan VS Code ke WSL
 
 1. Klik tombol di pojok kiri bawah VS Code
 2. Pilih "Connect to WSL" dari menu dropdown
 3. VS Code akan dibuka kembali terhubung ke environment WSL
 
-### Langkah 9: Siapkan Node.js di WSL
+### Langkah 5: Siapkan Node.js di WSL
 
 Buka terminal VS Code yang telah terhubung ke WSL dan instal nvm dan Node.js:
 
@@ -83,7 +83,7 @@ nvm install 18
 nvm use 18
 ```
 
-### Langkah 10: Instal Yarn
+### Langkah 6: Instal Yarn
 
 Instal package manager Yarn (Kita membutuhkan yarn sebagai package manager untuk workshop ini):
 
@@ -91,7 +91,7 @@ Instal package manager Yarn (Kita membutuhkan yarn sebagai package manager untuk
 npm install -g yarn
 ```
 
-### Langkah 11: Mengkloning Repositori
+### Langkah 7: Mengkloning Repositori
 
 Setelah semua disiapkan, kita dapat mengkloning repositori yang terkait dengan workshop ini nanti.
 
