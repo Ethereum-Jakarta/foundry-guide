@@ -60,17 +60,17 @@ cast --version
 anvil --version
 ```
 
-### Step 7: Install VS Code and Remote Development Extension
+### Step 3: Install VS Code and Remote Development Extension
 
 Open VS Code and install the "Remote Development" extension by Microsoft if you haven't already.
 
-### Step 8: Connect VS Code to WSL
+### Step 4: Connect VS Code to WSL
 
 1. Click button on the lower-left corner of VS Code
 2. Select "Connect to WSL" from the dropdown menu
 3. VS Code will reopen connected to your WSL environment
 
-### Step 9: Set Up Node.js in WSL
+### Step 5: Set Up Node.js in WSL
 
 Open VS Code terminal that has been connected to WSL and install nvm and Node.js:
 
@@ -85,7 +85,7 @@ nvm install 18
 nvm use 18
 ```
 
-### Step 10: Install Yarn
+### Step 6: Install Yarn
 
 Install Yarn package manager (We need yarn as our package manager for this workshop):
 
@@ -93,7 +93,7 @@ Install Yarn package manager (We need yarn as our package manager for this works
 npm install -g yarn
 ```
 
-### Step 11: Cloning a Repository
+### Step 7: Cloning a Repository
 
 After everything has been set up, you can clone a repository related to this workshop later.
 
