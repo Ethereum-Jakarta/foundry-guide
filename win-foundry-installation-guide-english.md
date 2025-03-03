@@ -30,7 +30,15 @@ wsl --install -d Ubuntu-22.04
 4. After restart, a terminal will open automatically to complete the Ubuntu setup
 5. Create a username and password when prompted
 
-### Step 2: Install Foundry in WSL
+### Step 2: Enable Hyper-V Feature
+
+1. Press the Windows key and search for "Turn Windows features on or off"
+2. In the Windows Features dialog, scroll down and check the box next to "Hyper-V"
+3. Also ensure "Virtual Machine Platform" is checked (should be enabled automatically from WSL installation)
+4. Click OK and wait for the features to be installed
+5. Restart your computer when prompted
+
+### Step 3: Install Foundry in WSL
 
 1. Open your WSL terminal (Ubuntu)
 2. Run the following command to install Foundryup:
@@ -60,17 +68,17 @@ cast --version
 anvil --version
 ```
 
-### Step 3: Install VS Code and Remote Development Extension
+### Step 4: Install VS Code and Remote Development Extension
 
 Open VS Code and install the "Remote Development" extension by Microsoft if you haven't already.
 
-### Step 4: Connect VS Code to WSL
+### Step 5: Connect VS Code to WSL
 
 1. Click button on the lower-left corner of VS Code
 2. Select "Connect to WSL" from the dropdown menu
 3. VS Code will reopen connected to your WSL environment
 
-### Step 5: Set Up Node.js in WSL
+### Step 6: Set Up Node.js in WSL
 
 Open VS Code terminal that has been connected to WSL and install nvm and Node.js:
 
@@ -85,7 +93,7 @@ nvm install 18
 nvm use 18
 ```
 
-### Step 6: Install Yarn
+### Step 7: Install Yarn
 
 Install Yarn package manager (We need yarn as our package manager for this workshop):
 
@@ -93,7 +101,7 @@ Install Yarn package manager (We need yarn as our package manager for this works
 npm install -g yarn
 ```
 
-### Step 7: Cloning a Repository
+### Step 8: Cloning a Repository
 
 After everything has been set up, you can clone a repository related to this workshop later.
 
