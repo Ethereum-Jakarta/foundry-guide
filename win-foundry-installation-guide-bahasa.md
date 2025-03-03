@@ -30,7 +30,15 @@ wsl --install -d Ubuntu-22.04
 4. Setelah restart, terminal akan terbuka secara otomatis untuk menyelesaikan pengaturan Ubuntu
 5. Buat nama pengguna dan kata sandi ketika diminta
 
-### Langkah 2: Instal Foundry di WSL
+### Langkah 2: Aktifkan Fitur Hyper-V
+
+1. Tekan tombol Windows dan cari "Turn Windows features on or off" ("Aktifkan atau nonaktifkan fitur Windows")
+2. Pada dialog Windows Features, scroll ke bawah dan centang kotak di samping "Hyper-V"
+3. Pastikan juga "Virtual Machine Platform" tercentang (seharusnya sudah diaktifkan secara otomatis dari instalasi WSL)
+4. Klik OK dan tunggu hingga fitur-fitur tersebut diinstal
+5. Restart komputer ketika diminta
+
+### Langkah 3: Instal Foundry di WSL
 
 1. Buka terminal WSL (Ubuntu)
 2. Jalankan perintah berikut untuk menginstal Foundryup:
@@ -60,17 +68,17 @@ cast --version
 anvil --version
 ```
 
-### Langkah 3: Instal VS Code dan Ekstensi Remote Development
+### Langkah 4: Instal VS Code dan Ekstensi Remote Development
 
 Buka VS Code dan instal ekstensi "Remote Development" dari Microsoft jika belum menginstalnya.
 
-### Langkah 4: Hubungkan VS Code ke WSL
+### Langkah 5: Hubungkan VS Code ke WSL
 
 1. Klik tombol di pojok kiri bawah VS Code
 2. Pilih "Connect to WSL" dari menu dropdown
 3. VS Code akan dibuka kembali terhubung ke environment WSL
 
-### Langkah 5: Siapkan Node.js di WSL
+### Langkah 6: Siapkan Node.js di WSL
 
 Buka terminal VS Code yang telah terhubung ke WSL dan instal nvm dan Node.js:
 
@@ -83,7 +91,7 @@ nvm install 18
 nvm use 18
 ```
 
-### Langkah 6: Instal Yarn
+### Langkah 7: Instal Yarn
 
 Instal package manager Yarn (Kita membutuhkan yarn sebagai package manager untuk workshop ini):
 
@@ -91,7 +99,7 @@ Instal package manager Yarn (Kita membutuhkan yarn sebagai package manager untuk
 npm install -g yarn
 ```
 
-### Langkah 7: Mengkloning Repositori
+### Langkah 8: Mengkloning Repositori
 
 Setelah semua disiapkan, kita dapat mengkloning repositori yang terkait dengan workshop ini nanti.
 
