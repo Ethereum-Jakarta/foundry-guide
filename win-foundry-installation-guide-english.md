@@ -11,7 +11,15 @@ Before installing Foundry, ensure you have:
 - At least 5GB of free disk space
 - A terminal emulator (Windows Terminal recommended)
 
-### Step 1: Install WSL
+### Step 1: Enable Hyper-V Feature
+
+1. Press the Windows key and search for "Turn Windows features on or off"
+2. In the Windows Features dialog, scroll down and check the box next to "Hyper-V"
+3. Also ensure "Virtual Machine Platform" is checked (should be enabled automatically from WSL installation)
+4. Click OK and wait for the features to be installed
+5. Restart your computer when prompted
+
+### Step 2: Install WSL
 
 1. Open PowerShell or Windows Command Prompt as Administrator
 2. Run the following command:
@@ -29,14 +37,6 @@ wsl --install -d Ubuntu-22.04
 3. Restart your computer when prompted
 4. After restart, a terminal will open automatically to complete the Ubuntu setup
 5. Create a username and password when prompted
-
-### Step 2: Enable Hyper-V Feature
-
-1. Press the Windows key and search for "Turn Windows features on or off"
-2. In the Windows Features dialog, scroll down and check the box next to "Hyper-V"
-3. Also ensure "Virtual Machine Platform" is checked (should be enabled automatically from WSL installation)
-4. Click OK and wait for the features to be installed
-5. Restart your computer when prompted
 
 ### Step 3: Install Foundry in WSL
 
