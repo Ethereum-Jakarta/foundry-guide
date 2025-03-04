@@ -77,11 +77,10 @@ Sebelum menginstal Foundry di Windows, pastikan memiliki:
 
 1. Buka terminal WSL (Ubuntu)
 2. Buat nama unix pengguna dan kata sandi ketika diminta
-2. Setelah dibuat, jalankan perintah berikut untuk menginstal Foundryup:
+3 Setelah dibuat, jalankan perintah berikut untuk menginstal Foundryup:
    ```bash
    curl -L https://foundry.paradigm.xyz | bash
    ```
-3. Ikuti petunjuk untuk menyelesaikan instalasi
 4. Mulai sesi terminal baru atau pada terminal yang sama, dan jalankan:
    ```bash
    source ~/.bashrc
