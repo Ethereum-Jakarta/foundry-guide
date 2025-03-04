@@ -57,8 +57,7 @@ Before installing Foundry on Windows, ensure you have:
 
 1. Press the Windows key and search for "Turn Windows features on or off"
 2. In the Windows Features dialog, scroll down and check the box next to "Hyper-V"
-3. Also ensure "Virtual Machine Platform" is checked
-4. Click OK and wait for the features to be installed
+3. Click OK and wait for the feature to be installed
 5. Restart your computer when prompted
 
 ### Step 2: Install WSL
