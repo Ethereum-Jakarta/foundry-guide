@@ -112,7 +112,12 @@ Open VS Code and install the "Remote Development" extension by Microsoft if you 
 
 ### For macOS
 
-Open Terminal and install nvm and Node.js:
+Open terminal and run:
+```bash
+node -v 
+```
+
+If it's not installed yet, you should install nvm and Node.js:
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 # Source nvm
