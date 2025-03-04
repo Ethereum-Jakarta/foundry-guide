@@ -71,18 +71,16 @@ Before installing Foundry on Windows, ensure you have:
    ```powershell
    wsl --install -d Ubuntu-22.04
    ```
-3. Restart your computer when prompted
-4. After restart, a terminal will open automatically to complete the Ubuntu setup
-5. Create a username and password when prompted
+3. Restart your computer to fully enable the installed feature
 
 ### Step 3: Install Foundry in WSL
 
 1. Open your WSL terminal (Ubuntu)
-2. Run the following command to install Foundryup:
+2. Create unix username and password when prompted
+3. After creating unix account, run the following command to install Foundryup:
    ```bash
    curl -L https://foundry.paradigm.xyz | bash
    ```
-3. Follow the prompts to complete the installation
 4. Start a new terminal session or run:
    ```bash
    source ~/.bashrc
