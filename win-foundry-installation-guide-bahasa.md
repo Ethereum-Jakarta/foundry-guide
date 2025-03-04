@@ -20,7 +20,7 @@ Sebelum menginstal Foundry di macOS, pastikan memiliki:
    ```bash
    curl -L https://foundry.paradigm.xyz | bash
    ```
-3. Install package libusb apabila belum terinstall
+3. Instal package libusb apabila belum terinstal
    ```bash
    brew install libusb
    ```
@@ -71,14 +71,13 @@ Sebelum menginstal Foundry di Windows, pastikan memiliki:
    ```powershell
    wsl --install -d Ubuntu-22.04
    ```
-3. Restart komputer ketika diminta
-4. Setelah restart, terminal akan terbuka secara otomatis untuk menyelesaikan pengaturan Ubuntu
-5. Buat nama pengguna dan kata sandi ketika diminta
+3. Restart komputer untuk sepenuhnya mengaktifkan fitur yang telah terinstal.
 
 ### Langkah 3: Instal Foundry di WSL
 
 1. Buka terminal WSL (Ubuntu)
-2. Jalankan perintah berikut untuk menginstal Foundryup:
+2. Buat nama unix pengguna dan kata sandi ketika diminta
+2. Setelah dibuat, jalankan perintah berikut untuk menginstal Foundryup:
    ```bash
    curl -L https://foundry.paradigm.xyz | bash
    ```
