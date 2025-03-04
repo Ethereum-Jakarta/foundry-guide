@@ -21,9 +21,9 @@ Before installing Foundry on macOS, ensure you have:
    curl -L https://foundry.paradigm.xyz | bash
    ```
 3. Install libusb package if it's not installed yet.
-```bash
-brew install libusb
-```
+   ```bash
+   brew install libusb
+   ```
 4. Start a new terminal session or run:
    ```bash
    source ~/.zshrc  # or source ~/.bash_profile depending on your shell
