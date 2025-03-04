@@ -57,8 +57,7 @@ Sebelum menginstal Foundry di Windows, pastikan memiliki:
 
 1. Tekan tombol Windows dan cari "Turn Windows features on or off" ("Aktifkan atau nonaktifkan fitur Windows")
 2. Pada dialog Windows Features, scroll ke bawah dan centang kotak di samping "Hyper-V"
-3. Pastikan juga "Virtual Machine Platform" tercentang
-4. Klik OK dan tunggu hingga fitur-fitur tersebut diinstal
+3. Klik OK dan tunggu hingga fitur tersebut diinstal
 5. Restart komputer ketika diminta
 
 ### Langkah 2: Instal WSL
