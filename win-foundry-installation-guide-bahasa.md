@@ -20,7 +20,10 @@ Sebelum menginstal Foundry di macOS, pastikan memiliki:
    ```bash
    curl -L https://foundry.paradigm.xyz | bash
    ```
-3. Ikuti petunjuk untuk menyelesaikan instalasi
+3. Install package libusb apabila belum terinstall
+   ```bash
+   brew install libusb
+   ```
 4. Mulai sesi terminal baru atau jalankan:
    ```bash
    source ~/.zshrc  # atau source ~/.bash_profile tergantung shell
@@ -152,7 +155,7 @@ npm install -g yarn
 
 Setelah semua disiapkan, kita dapat mengkloning repositori yang terkait dengan workshop ini nanti.
 
-## Pemecahan Masalah
+## Permasalahan Umum
 
 ### Masalah Umum di Windows
 
@@ -189,6 +192,8 @@ Setelah semua disiapkan, kita dapat mengkloning repositori yang terkait dengan w
 2. **Command not found setelah instalasi:**
    - Pastikan profil shell (`.zshrc` atau `.bash_profile`) telah diperbarui dan di-source
    - Periksa bahwa binari Foundry ada di PATH
+
+3. **Error tidak ditemukan instalasi 
 
 ## Memulai dengan Foundry
 
